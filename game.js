@@ -186,7 +186,7 @@ kaboom({
     player.action(() => {
       camPos(player.pos)
       if (player.pos.y >= FALL_DEATH) {
-        go('lose', { score: scoreLabel.value})
+        go('lose ', { score: scoreLabel.value})
       }
     })
   
